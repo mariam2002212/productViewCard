@@ -1,0 +1,79 @@
+.card {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .image {
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .info {
+    margin-left: 25px;
+    margin-right: 35px;
+  }
+
+  .info h5 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    font-family:'Fraunces',sans-serif;
+    color: hsl(228, 12%, 48%);
+    
+  }
+  .info h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:'Fraunces',serif;
+    color: black;
+    font: bold;
+    
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(228, 12%, 48%);
+  }
+
+  .info p1 {
+    margin: 0;
+    font: bold;
+    font-size: 34px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: hsl(158, 36%, 37%);
+  }
+
+  .info p2 {
+    margin: 0;
+    font-size: 16px;
+    font-family:'Fraunces',serif;
+    color: hsl(228, 12%, 48%);
+  }
+
+
+  .info button{
+    background-color: hsl(158, 36%, 37%);
+    padding: 4px 65px;
+    text-align: center;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    border-radius: 5px;
+    color:white;
+    border: none;
+  }
+  body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(30, 38%, 92%);
+  }
